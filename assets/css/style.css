@@ -1,0 +1,223 @@
+/*header section*/
+
+.header {
+    background-color: #181E0B;
+}
+
+
+/*menu section*/
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    background-color: #7FBA00;
+}
+
+
+/*header font aowsome shop*/
+
+.shop {
+    background-color: #7FBA00;
+    border-radius: 50%;
+    width: 40px;
+    text-align: center;
+}
+
+
+/*header slider button*/
+
+.slide_buttton {
+    padding: 10px 45px;
+    border-radius: 30px;
+    background-color: #7FBA00;
+}
+
+
+/*header welcome */
+
+.welcome {
+    position: absolute;
+    top: 0px;
+}
+
+
+/*header bg image*/
+
+.w-100 {
+    width: 100%!important;
+    height: 450px;
+}
+
+
+/*header welcome h2*/
+
+.welcome h2 {
+    font-weight: bold;
+}
+
+
+/*story section*/
+
+.story {
+    background: url(../image/story/bg.png) no-repeat;
+    background-position: left top;
+    margin-top: 50px;
+}
+
+
+/*story section fonts*/
+
+.fonts {
+    font-family: 'Great Vibes', cursive;
+}
+
+
+/*story section line*/
+
+.line {
+    width: 100px;
+    height: 3px;
+    background-color: #7FBA00;
+}
+
+
+/*offer section body*/
+
+.best_offers {
+    margin: 20px 0 20px 0;
+}
+
+
+/*offer section card*/
+
+.offer1 {
+    padding: 20px 0;
+    text-align: center;
+    background: url(../image/offer/bg.jpg) no-repeat;
+    background-position: right bottom;
+    background-size: 100%;
+    position: relative;
+    border: 1px solid #ccc;
+}
+
+
+/*offer section 50% off*/
+
+.off {
+    position: absolute;
+    top: 13px;
+    background-color: #009432;
+    color: #fff;
+    padding: 3px 11px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+/*offer section button*/
+
+.button_off {
+    padding: 0 30px;
+    border-radius: 25px;
+    background: none;
+    border: 1px solid #ccc;
+}
+
+
+/*our menu section*/
+
+.our_menu {
+    margin-top: 50px;
+    background: url(../image/menu/bg.png) no-repeat;
+    background-position: right bottom;
+    background-size: auto 80%;
+}
+
+
+/*our menu section details*/
+
+.our_menu2 {
+    text-align: center;
+    margin-top: 80px;
+}
+
+
+/*special food section*/
+
+.food {
+    
+    padding: 20px 0;
+    text-align: center;
+    background: url(../image/food/bg.png) no-repeat;
+    background-position: left;
+    background-size: auto 50%;
+}
+
+.chiken {
+    background-color: #162334;
+    position: relative;
+}
+.chiken_img{
+    position: absolute;
+    top: 20px;
+    left:-60px; 
+}
+.chik{}
+@media(max-width:768px) {
+   .chiken_img{
+  position: absolute;
+    top: -265px;
+    left: 20%;
+    width: 100%;
+}
+    .chik{width: 35%;}
+}
+.price{color: #7FBA00;}
+
+/*special section*/
+
+.special {
+    background-image: url(../image/special/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+}
+
+.team {
+    color: white;
+}
+
+.client {
+    margin-top: 50px;
+    background: url(../image/about/bg.jpg) no-repeat;
+    background-position: left;
+    background-size: auto 100%;
+}
+
+
+/*map section*/
+
+.maps {
+    background-image: url(../image/map/map.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+}
+
+.map {
+    background-color: #2D3B44;
+    opacity: .9
+}
+
+/*footer section*/
+.footer {
+    background-color: #7FBA00;
+    margin: 10px 0px;
+    padding: 0px 0px;
+}
+.footer_menu{margin-left: 0;}
